@@ -1,0 +1,50 @@
+Determine Shortest Path From 0 to 4
+ 6
+1 4 1
+2 4 0
+1 2 6
+5 2 2
+2 4 -3
+2 4 4
+5 4 4
+Initial Graph Complete 
+
+adj[0] -> (1,1)
+adj[1] -> (0,1) (3,5) (4,1) (2,6)
+adj[2] -> (1,6) (5,2) (4,4)
+adj[3] -> (1,5) (4,1)
+adj[4] -> (3,1) (1,1) (2,4) (5,4)
+adj[5] -> (2,2) (4,4)
+adj[0] -> (1,1) (2,3)
+adj[1] -> (0,1) (3,5) (4,1) (2,6)
+adj[2] -> (1,6) (5,2) (4,4) (0,3)
+adj[3] -> (1,5) (4,1)
+adj[4] -> (3,1) (1,1) (2,4) (5,4)
+adj[5] -> (2,2) (4,4)
+Minimum Spanning Tree
+adj[0]-> (1,1) 
+adj[0]-> (2,3) 
+adj[4]-> (3,1) 
+adj[1]-> (4,1) 
+adj[2]-> (5,2) 
+Sum: 8
+decrement edge 1 2 weight by 2
+adj[0] -> (1,1) (2,3)
+adj[1] -> (0,1) (3,5) (4,1) (2,2)
+adj[2] -> (1,6) (5,2) (4,4) (0,3)
+adj[3] -> (1,5) (4,1)
+adj[4] -> (3,1) (1,1) (2,4) (5,4)
+adj[5] -> (2,2) (4,4)
+Minimum Spanning Tree
+adj[0]-> (1,1) 
+adj[1]-> (2,2) 
+adj[4]-> (3,1) 
+adj[1]-> (4,1) 
+adj[2]-> (5,2) 
+Sum: 7
+Path 0, weighs: 0
+Path 0, weighs: 1
+Path 0, weighs: 3
+Path 0, weighs: 3
+Path 0, weighs: 2
+Path 0, weighs: 5
